@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Main {
     public static char[][] tabuleiro;
     public static String[] jogadores;
@@ -46,7 +44,7 @@ public class Main {
         }
     }
 
-    private static void trocarJogador() {
+    public static void trocarJogador() {
         jogadorAtual = (jogadorAtual == 'X') ? 'O' : 'X';
     }
 
